@@ -4,30 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" media="all" />
     <title>Document</title>
 
 </head>
 
     <body>
-       
+    
     <div class="start"> 
-        <input type="button" onclick="" value="Start">
+        <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onclick="affCache('iddetondiv') ">
+            Start
+         </button>
     </div>
 
     <div class="pause"> 
-        <input type="button" onclick="" value="Restart">
+        <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onclick="affCache('iddetondiv') ">
+            Restart
+         </button>
     </div>
 
     <div class="regles">
-        <input type="button" value="?" onclick="affCache('iddetondiv')"/>
+    <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onclick="showRegles('Second texte')" >
+         ? 
+      </button>
     </div> 
-    
 
-        <div class="red"></div>
-        <div class="blue"></div>
-        <div class="green"></div>
-        <div class="yellow"></div>
+    <div class="regles" >
+            <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700  rounded-circle " onclick="hideRegles('Second texte')" >
+                 x
+              </button>
+            </div> 
+    
+          
+          <div id="test">
+            yo mec
+          </div>
+
+
+          
+        <div 
+        class="red
+        border border-white
+        rounded
+        shadow p-3 mb-5
+        ">
+        </div>
+
+        <div 
+        class="blue
+        border border-white
+        rounded
+        shadow p-3 mb-5
+        ">
+        </div>
+
+        <div 
+        class="green
+        border border-white
+        rounded
+        shadow p-3 mb-5
+        ">
+        </div>
+
+        <div 
+        class="yellow
+        border border-dark
+        rounded
+        shadow p-3 mb-5
+        ">
+        </div>
+
+        
+
         
     <script type="text/javascript" src="script.js"></script>
 

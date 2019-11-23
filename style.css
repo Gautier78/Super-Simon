@@ -1,19 +1,30 @@
+body{
+  background-color: #423B45;
+}
 .start{
-    margin-left: 44%;
+    margin-top: 50px;
+    margin-left: 40.7%;
     display: inline-block;
+    
 }
 
 .pause{
-    display: inline-block;
+  margin-top: 50px;
+  margin-left: 2%;
+  display: inline-block;
+  
 }
 
 .regles{
-    display: inline-block;
+  margin-top: 50px;
+  margin-left: 2%;
+  display: inline-block;
+  
 }
 .red{
     width:100px;
     height:100px;
-    background:red;
+    background:#FF2D2B;
     margin:50px auto;
     
   }
@@ -21,7 +32,7 @@
   .blue{
     width:100px;
     height:100px;
-    background:blue;
+    background:#48C6E0;
     margin:50px auto;
     
   }
@@ -29,7 +40,7 @@
   .green{
     width:100px;
     height:100px;
-    background:green;
+    background:#2ADB67;
     margin:50px auto;
     
   }
@@ -37,7 +48,7 @@
   .yellow{
     width:100px;
     height:100px;
-    background:yellow;
+    background:#F7E55D;
     margin:50px auto;
 
   }
