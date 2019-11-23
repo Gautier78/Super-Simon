@@ -1,0 +1,47 @@
+.start{
+    margin-left: 44%;
+    display: inline-block;
+}
+
+.pause{
+    display: inline-block;
+}
+
+.regles{
+    display: inline-block;
+}
+.red{
+    width:100px;
+    height:100px;
+    background:red;
+    margin:50px auto;
+    
+  }
+
+  .blue{
+    width:100px;
+    height:100px;
+    background:blue;
+    margin:50px auto;
+    
+  }
+  
+  .green{
+    width:100px;
+    height:100px;
+    background:green;
+    margin:50px auto;
+    
+  }
+  
+  .yellow{
+    width:100px;
+    height:100px;
+    background:yellow;
+    margin:50px auto;
+
+  }
+  
+  
+
+  
