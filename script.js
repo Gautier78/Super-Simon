@@ -1,39 +1,47 @@
+class superSimonGame {
 
-const superSimon ={
-    nbRound : "",
-    nbTouchesAppuyees : "",
-    speedRound : 1,
-    couleurActive : "",
+    constructor(nbRound,nbCouleursAppuyees, speedRound,couleurActive){
+        this.nbRound = 0; //valeur initiale
+        this.nbCouleursAppuyees = 1; //valeur initiale
+        this.speedRound = 1 ; //valeur initiale
+        this.couleurActive = 1 ; //valeur constante car une seule couleur s'allume à la fois.
+    }
+
+    
+//Fonction qui lance la partie lors du clic sur le bouton "Start"//
+//La fonction affiche le numéro du tour actuel ainsi que son nveau de vitesse//
+    startGame(start){
+
+        document.getElementById("letsGo").style.display = "block";
+
+        // Vitesse des actions qui augmentent à chaque fin de tours//
+        while (speedRound <= 8){
+        console.log(speedRound);
+            speedRound +=1;
+        }
+
+        return `Round numéro ${start.nbRound}, la vitesse est de ${start.speedRound}.`;
+        }
+
+
 }
 
 
-function showRegles(test)
+//Cette fonction permet d'afficher les regles ainsi que le bouton pour fermer les regles
+function showRegles()
 {
     document.getElementById("regles").style.display = "block";
     document.getElementById("cacherRegles").style.display = "block";
 }
-
-function hideRegles(test)
+//Cette fonction permet de cacher les regles ainsi que le bouton pour les fermer les regles
+function hideRegles()
 {
     document.getElementById("regles").style.display = "none";
     document.getElementById("cacherRegles").style.display = "none";
 }
 
+
 /*
-
-//Fonction qui lance la partie lors du clic sur le bouton "Start"//
-//La fonction affiche le numéro du tour actuel ainsi que son nveau de vitesse//
-function start(start){
-   
-   
-    // Vitesse des actions qui augmentent à chaque fin de tours//
-    while (speedRound <= 8){
-       console.log(speedRound);
-        speedRound +=;
-}
-
-    return `Round numéro ${start.nbRound}, la vitesse est de ${start.speedRound}.`;
-}
 
 //Fonction qui se lance lorsque la partie est perdue//
 //La fonction affiche le numéro du tour perdu ainsi que la couleur qui nous a fait perdre//
@@ -72,45 +80,4 @@ console.log(endRound(end));
 console.log(restartGame(superSimon));
 
 console.log(hasard(4));
-/*
-
-
-
-
-
-class NomDeLaClasse {
-    // param nécéssaire
-    constructor(param = 12, constructor){
-        this.MavaleurInitial = 0;
-
-
-        // param avec valeur par défault
-        // constructeur(param = 0){}
-    }
-
-    maFonction(parametres){
-            // tu fais tes bails 
-            // elle ce lance que quand tu l'appel
-            // tu peux en lancer d'autres d'autre part
-
-
-            
-    }
-    maFonctionNumero2(){
-        // on lance la fonction une A LINTERIEUR DE LA CLASS
-        this.maFonction();
-
-        // on appele la variable mavaleurinitial
-        this.MavaleurInitial;
-
-        this.MavaleurInitial = 12;
-    }
-
-}
-
-const ObjetClass = new NomDeLaClasse(25);
-const ObjetNTR = new NomDeLaClasse(50);
-
-ObjetClass.maFonctionNumero2();
-ObjetNTR.maFonctionNumero2();
 */

@@ -8,7 +8,7 @@ body{
     
 }
 
-.pause{
+.restart{
   margin-top: 50px;
   margin-left: 2%;
   display: inline-block;
@@ -38,6 +38,27 @@ body{
   position: absolute;
   
 }
+
+.letsGo{
+  margin-top: 50px;
+  margin-left: 20%;
+  position: absolute;
+  display: none;
+}
+
+.Score{
+  margin-top: 300px;
+  margin-left: 20%;
+  position: absolute;
+}
+
+.gameOver{
+  margin-top: 50px;
+  margin-left: 20%;
+  position: absolute;
+  display: none;
+}
+
 
 .red{
     width:100px;
