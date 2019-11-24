@@ -9,24 +9,17 @@ const superSimon ={
 
 function showRegles(test)
 {
-    document.getElementById("test").style.display = "block";
+    document.getElementById("regles").style.display = "block";
+    document.getElementById("cacherRegles").style.display = "block";
 }
 
 function hideRegles(test)
 {
-    document.getElementById("test").style.display = "none";
+    document.getElementById("regles").style.display = "none";
+    document.getElementById("cacherRegles").style.display = "none";
 }
 
-/*  
-function functionTest(test)
-{
-  //masquer
-document.getElementById("test").style.display = "none";
-
-//Afficher
-document.getElementById("test").style.display = "block";
-
-/*  
+/*
 
 //Fonction qui lance la partie lors du clic sur le bouton "Start"//
 //La fonction affiche le numéro du tour actuel ainsi que son nveau de vitesse//

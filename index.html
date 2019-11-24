@@ -16,31 +16,42 @@
     <div class="start"> 
         <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onclick="affCache('iddetondiv') ">
             Start
-         </button>
+        </button>
     </div>
 
     <div class="pause"> 
         <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onclick="affCache('iddetondiv') ">
             Restart
-         </button>
+        </button>
     </div>
 
-    <div class="regles">
-    <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onclick="showRegles('Second texte')" >
+    <div class="afficherRegles">
+        <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onclick="showRegles('Second texte')" >
          ? 
-      </button>
+        </button>
     </div> 
 
-    <div class="regles" >
-            <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700  rounded-circle " onclick="hideRegles('Second texte')" >
-                 x
-              </button>
-            </div> 
+    <div id="cacherRegles" >
+        <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700  rounded-circle " onclick="hideRegles('Second texte')" >
+         x
+        </button>
+    </div> 
     
-          
-          <div id="test">
-            yo mec
-          </div>
+
+    <div id="regles">
+
+        <div class="card border-dark mb-3 text-center" style="max-width: 18rem;">
+            <div class="card-header">Super Simon</div>
+                <div class="card-body text-dark">
+                        <h6 class="card-subtitle mb-2 text-danger strong">Les règles</h6>
+                  <p class="card-text">
+                    Le jeu du Super Simon est composé de quatres touches de différentes couleur : rouge, vert, jaune et bleu émettant des sons différents.
+                    Les touches s'allument aléatoirement et le joueur doit reproduire l'enchaînement lumineux sans se tromper.
+                    La vitesse d'allumage des lumières augmente à chaque tour.
+                    Ici, il se joue à un joueur.</p>
+                </div>
+            </div>  
+        </div>
 
 
           
