@@ -1,6 +1,9 @@
+/* Couleur du Background*/
 body{
   background-color: #423B45;
 }
+
+/* Bouton START*/
 .start{
     margin-top: 50px;
     margin-left: 40.7%;
@@ -8,6 +11,7 @@ body{
     
 }
 
+/* Bouton RESTART*/
 .restart{
   margin-top: 50px;
   margin-left: 2%;
@@ -15,6 +19,7 @@ body{
   
 }
 
+/* Bouton REGLES*/
 .afficherRegles{
   margin-top: 50px;
   margin-left: 2%;
@@ -22,6 +27,7 @@ body{
   
 }
 
+/* Bouton "X" pour fermer les règles*/
 #cacherRegles{
   margin-top: 35px;
   margin-left: 83%;
@@ -31,6 +37,7 @@ body{
   
 }
 
+/* Card avec les règles*/
 #regles{
   margin-top: 50px;
   margin-left: 70%;
@@ -39,56 +46,78 @@ body{
   
 }
 
+/* Zone de texte "Let's GO*/
 .letsGo{
   margin-top: 50px;
   margin-left: 20%;
   position: absolute;
-  display: none;
+  display: ;
 }
 
-.Score{
-  margin-top: 300px;
-  margin-left: 20%;
+/* Zone de texte pour afficher le nombres de tours appuyées*/
+.nbDeTouchesAppuyees{
+  margin-top: 400px;
+  margin-left: 10%;
   position: absolute;
 }
 
+/* Zone de texte pour afficher tour actuel*/
+.nbDeToursValides{
+  margin-top: 500px;
+  margin-left: 10%;
+  position: absolute;
+}
+
+/* Zone de texte "GAME OVER" */
 .gameOver{
-  margin-top: 50px;
-  margin-left: 20%;
+  margin-top: 130px;
+  margin-left: 19%;
   position: absolute;
-  display: none;
+  display: ;
+}
+
+/* Zone de texte "A VOUS DE JOUER" */
+.aVousDeJouer{
+  margin-top: 210px;
+  margin-left: 17%;
+  position: absolute;
+  display: ;
 }
 
 
+/* Bouton ROUGE */
 .red{
     width:100px;
     height:100px;
     background:#FF2D2B;
-    margin:50px auto;
+    margin:70px auto;
     
   }
 
+  /* Bouton BLEU */
   .blue{
     width:100px;
     height:100px;
     background:#48C6E0;
-    margin:50px auto;
+    margin:90px auto;
     
   }
   
+  /* Bouton VERT */
   .green{
     width:100px;
     height:100px;
     background:#2ADB67;
-    margin:50px auto;
+    margin:90px auto;
     
   }
   
+  /* Bouton JAUNE*/
   .yellow{
     width:100px;
     height:100px;
     background:#F7E55D;
-    margin:50px auto;
+    margin:90px auto;
 
   }
   
