@@ -43,12 +43,14 @@ function hideRegles()
 }
 
 
-/*
+/* CODE JAVASCRIPT NON CONCLUANT 
 
 //Fonction qui se lance lorsque la partie est perdue//
 //La fonction affiche le numéro du tour perdu ainsi que la couleur qui nous a fait perdre//
 function lose(){
     const end = 0;
+
+      //Affiche du texte avec le numéro du Round et la couleur qui nous a fait perdre.
     return `Perdu ! Vous êtes allez jusqu'au tour numéro ${start.nbRound}. La couleur qui vous a fait perdre est ${star.couleurActive}. Voulez vous rejouer?`;
 }
 
@@ -76,6 +78,7 @@ function affCache() {
 function hasard(4){
 	return 1+Math.floor(Math.random()*4);
 }
+
 
 console.log(startRound(superSimon));
 console.log(endRound(end));
